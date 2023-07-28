@@ -32,11 +32,11 @@ const (
 )
 
 type Config struct {
-	Disabled  bool   `yaml:"disabled"`
-	Email     string `yaml:"email"`
-	Directory string `yaml:"directory"`
-	KID       string `yaml:"kid"`
-	HMAC      string `yaml:"hmac"`
+	Disabled  bool   `mapstructure:"disabled"`
+	Email     string `mapstructure:"email"`
+	Directory string `mapstructure:"directory"`
+	KID       string `mapstructure:"kid"`
+	HMAC      string `mapstructure:"hmac"`
 }
 
 func New() *Config {
