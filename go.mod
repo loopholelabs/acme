@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/go-acme/lego/v4 v4.13.3
 	github.com/rs/zerolog v1.33.0
-	github.com/spf13/pflag v1.0.5
+	github.com/spf13/pflag v1.0.6
 )
 
 require (
